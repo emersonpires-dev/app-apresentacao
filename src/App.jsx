@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './pages/Login';
-import Cadastro from './pages/Cadastro';
-import Usuarios from './pages/Usuarios';
+import Login from './pages/Login.jsx';
+import Cadastro from './pages/Cadastro.jsx';
+import Usuarios from './pages/Usuarios.jsx';
 
 function App() {
   return (

@@ -1,16 +1,20 @@
-# React + Vite
+# 🚀 Projeto de Apresentação - Sistema de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma Single Page Application (SPA) desenvolvida para demonstração técnica, contendo fluxos de validação e consumo de uma API pública.
 
-Currently, two official plugins are available:
+## 📱 Telas Implementadas
+- **Login:** Com validação de formato de e-mail e tamanho mínimo de senha.
+- **Cadastro:** Formulário estruturado para novos usuários.
+- **Lista de Usuários:** Consumo da API pública *JSONPlaceholder*, exibindo os dados em uma interface moderna com tratamento visual para os estados de *Loading* e *Erro*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
+- **React** (com Vite)
+- **Tailwind CSS** (Estilização de interface)
+- **React Router DOM** (Navegação client-side)
 
-## React Compiler
+## ⚙️ Como rodar o projeto localmente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone este repositório.
+2. Instale as dependências executando no terminal:
+   ```bash
+   npm install
